@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/baseCellLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/baseLayoutForDefault"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#f4f4f4"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/flags"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+             />
+
+        <TextView
+            android:id="@+id/countryTextAndAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/flags"
+            android:fontFamily="sans-serif-thin"
+            android:text="country"
+            android:textColor="@color/colorBlue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/weightDistribution"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/baseLayoutForDefault"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+
+        <TextView
+            android:id="@+id/btnRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_bordered_rectangle"
+            android:text="Remove"
+            android:gravity="center"
+            android:textColor="@color/colorBlue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/yellow_border_rectangle"
+            android:text="Edit"
+            android:gravity="center"
+            android:textColor="@color/colorBlue"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
