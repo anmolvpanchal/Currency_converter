@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
+    android:background="@color/white"
     android:orientation="vertical"
     android:padding="10dp">
 
@@ -35,6 +36,8 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="Amount"
+            android:textColor="@color/colorBlue"
+            android:textColorHint="@color/colorBlue"
             android:inputType="numberDecimal"/>
 
         <Spinner
