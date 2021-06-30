@@ -27,7 +27,7 @@
             android:layout_marginLeft="15dp"
             android:layout_toRightOf="@id/flags"
             android:fontFamily="sans-serif-thin"
-            android:text="country"
+            android:text="@string/country_name_text"
             android:textColor="@color/colorBlue"
             android:textSize="25sp"
             android:textStyle="bold" />
@@ -55,7 +55,7 @@
             android:layout_marginRight="20dp"
             android:layout_weight="1"
             android:background="@drawable/blue_bordered_rectangle"
-            android:text="Remove"
+            android:text="@string/remove_button_text"
             android:gravity="center"
             android:textColor="@color/colorBlue"
             android:textSize="15sp" />
@@ -68,7 +68,7 @@
             android:layout_marginRight="20dp"
             android:layout_weight="1"
             android:background="@drawable/yellow_border_rectangle"
-            android:text="Edit"
+            android:text="@string/edit_button_text"
             android:gravity="center"
             android:textColor="@color/colorBlue"
             android:textSize="15sp" />

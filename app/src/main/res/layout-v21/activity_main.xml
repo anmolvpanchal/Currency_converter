@@ -49,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="15dp"
-                    android:text="Total Balance"
+                    android:text="@string/total_balance_text"
                     android:textColor="@color/colorBlue"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:fontFamily="sans-serif-thin"
-                    android:text="0.00 CAD"
+                    android:text="@string/total_balance_value_text"
                     android:textColor="@color/colorBlue"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/totalBalanceCard"
             android:layout_marginLeft="20dp"
-            android:text="Currencies"
+            android:text="@string/currencies_text"
             android:textColor="@color/colorBlue"
             android:textSize="25sp"
             android:textStyle="bold" />
@@ -91,12 +91,12 @@
             android:background="@color/white"/>
 
         <TextView
-            android:id="@+id/addAmmountText"
+            android:id="@+id/addAmountText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@id/floatingActionButton"
             android:layout_centerHorizontal="true"
-            android:text="Please add ammount "
+            android:text="@string/please_add_amount_text"
             android:textColor="@color/colorBlue"
             android:fontFamily="sans-serif-thin"
             android:textSize="25sp"

@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Currency converter</string>
+    <string name="total_balance_text">Total Balance</string>
+    <string name="total_balance_value_text">0.00 CAD</string>
+    <string name="currencies_text">Currencies</string>
+    <string name="please_add_amount_text">Please add amount</string>
+    <string name="enter_amount_text">Enter amount</string>
+    <string name="hint_text">Amount</string>
+    <string name="okay_text">Okay</string>
+    <string name="country_name_text">country</string>
+    <string name="remove_button_text">Remove</string>
+    <string name="edit_button_text">Edit</string>
 
 </resources>

@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:text="Enter amount"
+        android:text="@string/enter_amount_text"
         android:textColor="@color/colorBlue"
         android:textSize="15sp"
         android:textStyle="bold" />
@@ -35,7 +35,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="Amount"
+            android:hint="@string/hint_text"
             android:textColor="@color/colorBlue"
             android:textColorHint="@color/colorBlue"
             android:inputType="numberDecimal"/>
@@ -60,7 +60,7 @@
         android:layout_margin="10dp"
         android:background="@drawable/blue_bordered_rectangle"
         android:padding="10dp"
-        android:text="Okay"
+        android:text="@string/okay_text"
         android:textColor="@color/colorBlue" />
 
 </RelativeLayout>
